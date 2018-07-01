@@ -1,0 +1,17 @@
+@import 'themeColor';
+$theme-font: verdana, sans-serif;
+
+.demo {
+  font: $theme-font;
+  background-color: $themeColor-Light;
+  h1, h2 {
+    color: $themeColor-Dark;
+  }
+}
+
+.hat {
+    background-color: cyan;
+    h1 {
+        color: rebeccapurple;
+    }
+}
