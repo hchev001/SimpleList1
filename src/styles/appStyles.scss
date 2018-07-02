@@ -1,17 +1,31 @@
-@import 'themeColor';
-$theme-font: verdana, sans-serif;
+@import "themeColor";
 
-.demo {
-  font: $theme-font;
-  background-color: $themeColor-Light;
-  h1, h2 {
-    color: $themeColor-Dark;
-  }
+$heading-font: "Nunito", sans-serif;
+$content-font: "Lora", serif;
+
+.app-container {
+  background-color: $contrast-color;
+  font-family: $heading-font;
+  font-family: $content-font;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
-.hat {
-    background-color: cyan;
-    h1 {
-        color: rebeccapurple;
-    }
+.app {
+  max-width: 600px;
+  min-width: 400px;
+  min-height: 700px;
+  background-color: $app-color;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.banner {
 }

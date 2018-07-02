@@ -2,10 +2,20 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./styles/appStyles.scss";
 
+// Compoennts
+import Banner from "./pages/Banner";
+
 const Index = () => {
   return (
-    <div className="demo">
-      <h1 className="example">Demo</h1>!
+    <div className="app-container">
+      <div className="app">
+        <Banner />
+        <div>Hamburger Menu</div>
+        <div>
+          ListOfTOdos
+          <div>Card</div>
+        </div>
+      </div>
     </div>
   );
 };
